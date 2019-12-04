@@ -1,0 +1,111 @@
+body{
+    background-color: #e9dccd;
+    background-image: url("topography.png");
+    
+}
+h1{   
+    font-family: "Consolas";
+    font-size: 4em;
+    text-align: center;
+}
+h0{
+    display: block;
+    font-size: 3em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+    text-align: center;
+}
+h2{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+}
+h3{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h5{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h6{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h7{
+    display: block;
+    font-size: 2em;
+    font-family: "Consolas";
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#divider {
+    text-align: center;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 12px 14px 13px;
+    padding: 15px;
+    font-size: 1.5em    
+
+}
+nav{
+    background-color: #333333;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+ul a{
+    color: #ff0099;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    margin: 15px 20px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
