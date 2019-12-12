@@ -13,8 +13,8 @@ const height: number = 400;
 
 function drawRect(xPos: number, yPos: number, size: number, color: string){
     for (let i = 0; i < 200; i += 50){
-        ctx.strokeStyle = color;
-        ctx.strokeRect(xPos+i, yPos+i, size, size);
+        ctx.fillStyle = color;
+        ctx.fillRect(xPos+i, yPos+i, size, size);
         if (i === 0) {
             color = 'red';
         } else if (i === 50){
