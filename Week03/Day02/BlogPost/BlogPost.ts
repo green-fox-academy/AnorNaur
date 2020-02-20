@@ -1,3 +1,4 @@
+'use strict';
 class BlogPost {
     authorName: string;
     title: string;

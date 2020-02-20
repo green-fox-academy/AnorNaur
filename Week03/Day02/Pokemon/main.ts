@@ -9,7 +9,7 @@ let pokemonOfAsh: Pokemon[] = initializePokemon();
 // A wild pokemon appeared!
 
 let wildPokemon: Pokemon = new Pokemon('Oddish', 'leaf', 'water');
-console.log(pokemonOfAsh[0].name);
+// console.log(pokemonOfAsh[0].name);
 // Which pokemon should Ash use?
 
 console.log('I choose you, ');
