@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Take Out</title>
+    </head>
+   <body>
+        <h1>Welcome to Green Fox Takeout!</h1>
+        <h2>Please enter your info and chose your meal</h2>
+        <form action="process.php" method="POST">
+            <div>
+                <label>Name:</label>
+                <br>
+                <input type="text" name="Name">
+            </div>
+            <div>
+                <label>Address:</label>
+                <br>
+                <input type="text" name="Address">
+            </div>
+            <div>
+                <label>Bases</label>
+                <br>
+                <input type="checkbox" id="base1" name="base1" value="RiceNoodle">
+                <label for="vehicle1"> Rice noodles</label><br>
+                <input type="checkbox" id="base2" name="base2" value="EggNoodle">
+                <label for="vehicle1"> Egg noodles</label><br>
+                <input type="checkbox" id="base3" name="base3" value="WhiteRice">
+                <label for="vehicle1"> White rice</label><br>
+            </div>
+            <div>
+                <label>Toppings</label>
+                <br>
+                <select name="toppings">
+					<option value="chicken">Chicken</option>
+					<option value="beef">Beef</option>
+					<option value="smokedTofu">Smoked tofu</option>
+				</select>
+            </div>
+        </form>
+        <button>Order</button>
+   </body> 
+</html>

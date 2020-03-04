@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th> Month </th>
+          <th class="sec"> Sales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> January </td>
+          <td attribute="data-currency" class="sec"> 37,915</td>
+        </tr>
+        <tr>
+          <td> February </td>
+          <td attribute="data-currency" class="sec"> 56,825</td>
+        </tr>
+        <tr>
+          <td> March </td>
+          <td attribute="data-currency" class="sec"> 24,574</td>
+        </tr>
+        <tr>
+          <td> April </td>
+          <td attribute="data-currency" class="sec"> 10,614</td>
+        </tr>
+        <tr>
+          <td> May </td>
+          <td attribute="data-currency" class="sec"> 0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+<style> 
+  body {  
+    margin: 0 auto;
+    background: #0000ff;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  table { 
+    font-size: 150%;
+    font-family: 'Lucida Sans Unicode', sans-serif, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-weight: lighter;
+    text-align: left;
+    color: gray;
+    width: 200vh;
+    border-collapse: collapse;
+  }
+  .sec {
+    width: 60%;
+    padding-left: 3vh;
+  }
+  th, td {
+    width: 40%;
+    padding: 25px;
+  }
+  table{ 
+    background: inherit;
+  }
+  td {
+    background: #fff;
+  }
+  td.sec:before {
+    content:"$";
+  }
+  td.sec:after{ 
+    content: ".00"; 
+  }
+  th.sec {
+    border-left: 2px solid gray;
+  }
+  th {
+    border-bottom: 4px solid gray; 
+    font-weight: 100;
+  }
+  tbody td {
+    border: 2px solid gray;
+    border-left: 2px solid gray;
+  }
+  tr:nth-child(odd) td{
+    background: lightgrey;
+  }
+  thead,
+  tfoot {
+    background-color: #333;
+    color: #fff;
+  }
+</style>
+</html>
